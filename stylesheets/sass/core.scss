@@ -1,0 +1,105 @@
+//PLACEHOLDERS
+
+
+//CLASSES
+
+
+
+//IDS
+
+#navBar {
+  height: 100vh;
+  width: 150px;
+  background-color: rgba(255,255,255,.4);
+  // align-items: baseline;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  // align-self: flex-start;
+
+
+  .navBarButtons{
+    height: 100px;
+    width: 100%;
+    color: #FFF;
+    // display: block;
+    background-color: #000000;
+    // position: fixed;
+    // align-items: flex-start;
+
+
+}
+}
+
+//
+//
+
+// fonts
+// font-family: 'Rubik Mono One', sans-serif;
+// font-family: 'Macondo', cursive;
+// font-family: 'Dr Sugiyama', cursive;
+
+// body {
+//
+//
+
+ #mainWrap {
+   height: 100vh;
+   width: 100vw;
+   // align-content: flex-start;
+
+
+   .forestBackground{
+     position: absolute;
+     height: 100vh;
+     width: 100%;
+     background:url(imgs/treeHiRes.jpg) no-repeat;
+     background-position: 0 -1600px;
+     justify-content: flex-start;
+     // align-items: center;
+     // display: flex;
+     // text-align: center;
+
+   }
+
+
+    #topBoxTitle {
+      height: 400px;
+      width: 100vw;
+      background-color: rgba(0,0,0,0);
+      display: flex;
+      text-align: center;  //nah
+      //by the way.... who is this? haha
+      //
+      // publish to github? KK .. like online? you don't need to publish to GitHub Pages, just if you put the project up we could see the whole thing
+      // text-align: right;
+      // text-align: center;
+      // justify-content: center;
+
+
+      .header1{
+        font-family: 'Macondo', cursive;
+        font-size: 3em;
+        // width: 50%;
+        color: #FFF;
+        display: flex;
+        // justify-content: center;
+        //align-self: (overrides align items)
+        // align-items: center;
+        // text-align: right;
+        justify-content: center;
+          .surname{
+            font-family: 'Dr Sugiyama', cursive;
+          }
+
+
+      }
+    }
+
+
+}
+// }
+
+
+//body

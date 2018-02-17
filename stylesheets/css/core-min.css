@@ -1,0 +1,38 @@
+#navBar {
+  height: 100vh;
+  width: 150px;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  #navBar .navBarButtons {
+    height: 100px;
+    width: 100%;
+    color: #FFF;
+    background-color: #000000; }
+
+#mainWrap {
+  height: 100vh;
+  width: 100vw; }
+  #mainWrap .forestBackground {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: url(imgs/treeHiRes.jpg) no-repeat;
+    background-position: 0 -1600px;
+    justify-content: flex-start; }
+  #mainWrap #topBoxTitle {
+    height: 400px;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    text-align: center; }
+    #mainWrap #topBoxTitle .header1 {
+      font-family: 'Macondo', cursive;
+      font-size: 3em;
+      color: #FFF;
+      display: flex;
+      justify-content: center; }
+      #mainWrap #topBoxTitle .header1 .surname {
+        font-family: 'Dr Sugiyama', cursive; }
