@@ -1,16 +1,27 @@
 #navBar {
   height: 100vh;
   width: 150px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0);
   position: absolute;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column; }
   #navBar .navBarButtons {
     height: 100px;
     width: 100%;
-    color: #FFF;
-    background-color: #000000; }
+    text-align: center;
+    transform-style: preserve-3d;
+    color: #E9FFFB;
+    font-family: 'Rubik Mono One', sans-serif;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+    background-color: rgba(0, 37, 28, 0.7);
+    transition: 1.5s; }
+    #navBar .navBarButtons:hover {
+      box-shadow: 0 0 20px rgba(200, 200, 200, 0.75);
+      transition: 1.5s;
+      background-color: black;
+      border-radius: 25px; }
 
 #mainWrap {
   height: 100vh;
@@ -25,6 +36,8 @@
   #mainWrap #topBoxTitle {
     height: 400px;
     width: 100vw;
+    position: relative;
+    left: 400px;
     background-color: transparent;
     display: flex;
     text-align: center; }
