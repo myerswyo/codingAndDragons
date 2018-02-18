@@ -26,6 +26,57 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/stylesheets\/css\/imgs\/inkwell.png": {
+		"ft": 32768,
+		"iS": 155510,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/inkwell.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/stylesheets\/css\/imgs\/shavedHead.jpg": {
+		"ft": 16384,
+		"iS": 52288,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/shavedHead.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/stylesheets\/css\/imgs\/shavedHead3.jpg": {
+		"ft": 16384,
+		"iS": 92397,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/shavedHead3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/stylesheets\/css\/imgs\/shavedHead4.jpg": {
+		"ft": 16384,
+		"iS": 105015,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/shavedHead4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/stylesheets\/css\/imgs\/shaveHead2.jpg": {
+		"ft": 16384,
+		"iS": 87059,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/shaveHead2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/stylesheets\/css\/imgs\/tree.jpg": {
 		"ft": 16384,
 		"iS": 167037,

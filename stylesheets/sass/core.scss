@@ -1,6 +1,29 @@
 //PLACEHOLDERS
 
+%sideBarButton{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  transform-style: preserve-3d;
+  color: #E9FFFB;
+  font-family: 'Rubik Mono One', sans-serif;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,1);
+  background-color: rgba(0, 37, 28, .7);
+  transition: 1.5s;
+}
 
+%buttonHover{
+  box-shadow: 0 0 20px rgba(200,200,200,.75);
+  transition: 1.5s;
+  background-color: rgba(0, 0, 0, 1);
+  background: url(imgs/inkwell.png) no-repeat;
+  height: 150px;
+  width: 100%;
+  border-radius: 25px;
+  background-size: contain;
+  background-position: center;
+}
 //CLASSES
 
 
@@ -17,32 +40,36 @@
   flex-direction: column;
 
 
-  .navBarButtons{
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    transform-style: preserve-3d;
-    color: #E9FFFB;
-    font-family: 'Rubik Mono One', sans-serif;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(0,0,0,1);
-    background-color: rgba(0, 37, 28, .7);
-    transition: 1.5s;
+  .navBarButtonsBio{
+    @extend %sideBarButton;
+
+
+      &:hover{
+       @extend %buttonHover;
+
+
+
+      }
+}
+    .navBarButtons{
+      @extend %sideBarButton;
 
       &:hover{
         box-shadow: 0 0 20px rgba(200,200,200,.75);
         transition: 1.5s;
         background-color: rgba(0, 0, 0, 1);
+          // background-image: url(imgs/inkwell.png);
         border-radius: 25px;
-
-
-        // transform: ;
-
       }
 
+    }
+        // transform: ;
 
 
-}
+
+
+
+
 }
 
 //

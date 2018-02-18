@@ -1,3 +1,26 @@
+#navBar .navBarButtonsBio, #navBar .navBarButtons {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  transform-style: preserve-3d;
+  color: #E9FFFB;
+  font-family: 'Rubik Mono One', sans-serif;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px black;
+  background-color: rgba(0, 37, 28, 0.7);
+  transition: 1.5s; }
+
+#navBar .navBarButtonsBio:hover {
+  box-shadow: 0 0 20px rgba(200, 200, 200, 0.75);
+  transition: 1.5s;
+  background-color: black;
+  background: url(imgs/inkwell.png) no-repeat;
+  height: 150px;
+  width: 100%;
+  border-radius: 25px;
+  background-size: contain;
+  background-position: center; }
+
 #navBar {
   height: 100vh;
   width: 150px;
@@ -6,22 +29,11 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column; }
-  #navBar .navBarButtons {
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    transform-style: preserve-3d;
-    color: #E9FFFB;
-    font-family: 'Rubik Mono One', sans-serif;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px black;
-    background-color: rgba(0, 37, 28, 0.7);
-    transition: 1.5s; }
-    #navBar .navBarButtons:hover {
-      box-shadow: 0 0 20px rgba(200, 200, 200, 0.75);
-      transition: 1.5s;
-      background-color: black;
-      border-radius: 25px; }
+  #navBar .navBarButtons:hover {
+    box-shadow: 0 0 20px rgba(200, 200, 200, 0.75);
+    transition: 1.5s;
+    background-color: black;
+    border-radius: 25px; }
 
 #mainWrap {
   height: 100vh;
