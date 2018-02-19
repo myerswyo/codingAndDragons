@@ -130,20 +130,15 @@
 
 
     #topBoxTitle {
-      height: 400px;
-      width: 100vw;
+      height: 200px;
+      width: 100%;
       position: relative;
 
       //fix this so it is respsonsive
-      left: 400px;
+      // left: 400px;
       background-color: rgba(0,0,0,0);
       display: flex;
-      text-align: center;  //nah
-
-      // text-align: right;
-      // text-align: center;
-      // justify-content: center;
-
+      justify-content: center;
 
       .header1{
         // left: 150px;
