@@ -1,4 +1,4 @@
-#navBar .navBarButtonsBio, #navBar .navBarButtons {
+#navBar .navBarButtonsBio, #navBar .navBarButtonsStats, #navBar .navBarButtonsSpells, #navBar .navBarButtonsInventory, #navBar .navBarButtons {
   height: 100px;
   width: 100%;
   text-align: center;
@@ -10,16 +10,13 @@
   background-color: rgba(0, 37, 28, 0.7);
   transition: 1.5s; }
 
-#navBar .navBarButtonsBio:hover {
+#navBar .navBarButtonsBio:hover, #navBar .navBarButtonsStats:hover, #navBar .navBarButtonsSpells:hover, #navBar .navBarButtonsInventory:hover, #navBar .navBarButtons:hover {
   box-shadow: 0 0 20px rgba(200, 200, 200, 0.75);
-  transition: 1.5s;
   background-color: black;
-  background: url(imgs/inkwell.png) no-repeat;
-  height: 150px;
+  height: 100px;
   width: 100%;
   border-radius: 25px;
-  background-size: contain;
-  background-position: center; }
+  transition: 1.5s; }
 
 #navBar {
   height: 100vh;
@@ -29,11 +26,22 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column; }
-  #navBar .navBarButtons:hover {
-    box-shadow: 0 0 20px rgba(200, 200, 200, 0.75);
-    transition: 1.5s;
-    background-color: black;
-    border-radius: 25px; }
+  #navBar .navBarButtonsBio:hover {
+    background: url(imgs/inkwell.png) no-repeat;
+    background-size: contain;
+    background-position: center; }
+  #navBar .navBarButtonsStats:hover {
+    background: url(imgs/stats.png) no-repeat;
+    background-size: contain;
+    background-position: center; }
+  #navBar .navBarButtonsSpells:hover {
+    background: url(imgs/magicburst.png) no-repeat;
+    background-size: contain;
+    background-position: center; }
+  #navBar .navBarButtonsInventory:hover {
+    background: url(imgs/lute.png) no-repeat;
+    background-size: contain;
+    background-position: center; }
 
 #mainWrap {
   height: 100vh;

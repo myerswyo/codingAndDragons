@@ -15,14 +15,15 @@
 
 %buttonHover{
   box-shadow: 0 0 20px rgba(200,200,200,.75);
-  transition: 1.5s;
   background-color: rgba(0, 0, 0, 1);
-  background: url(imgs/inkwell.png) no-repeat;
-  height: 150px;
+  // background: url(imgs/inkwell.png) no-repeat;
+  height: 100px;
   width: 100%;
   border-radius: 25px;
-  background-size: contain;
-  background-position: center;
+  transition: 1.5s;
+
+  // background-size: contain;
+  // background-position: center;
 }
 //CLASSES
 
@@ -42,26 +43,50 @@
 
   .navBarButtonsBio{
     @extend %sideBarButton;
-
-
-      &:hover{
+    &:hover{
        @extend %buttonHover;
-
-
-
+       background: url(imgs/inkwell.png) no-repeat;
+       background-size: contain;
+       background-position: center;
+    }
+  }
+    .navBarButtonsStats{
+      @extend %sideBarButton;
+      &:hover{
+        @extend %buttonHover;
+        background: url(imgs/stats.png) no-repeat;
+        background-size: contain;
+        background-position: center;
       }
-}
+    }
+
+    .navBarButtonsSpells{
+      @extend %sideBarButton;
+      &:hover{
+        @extend %buttonHover;
+        background: url(imgs/magicburst.png) no-repeat;
+        background-size: contain;
+        background-position: center;
+      }
+    }
+
+    .navBarButtonsInventory{
+      @extend %sideBarButton;
+      &:hover{
+        @extend %buttonHover;
+        background: url(imgs/lute.png) no-repeat;
+        background-size: contain;
+        background-position: center;
+      }
+    }
+
+
+
     .navBarButtons{
       @extend %sideBarButton;
-
       &:hover{
-        box-shadow: 0 0 20px rgba(200,200,200,.75);
-        transition: 1.5s;
-        background-color: rgba(0, 0, 0, 1);
-          // background-image: url(imgs/inkwell.png);
-        border-radius: 25px;
+        @extend %buttonHover;
       }
-
     }
         // transform: ;
 

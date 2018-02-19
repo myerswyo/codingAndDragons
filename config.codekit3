@@ -37,6 +37,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/stylesheets\/css\/imgs\/lute.png": {
+		"ft": 32768,
+		"iS": 169426,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/lute.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/stylesheets\/css\/imgs\/magicburst.png": {
+		"ft": 32768,
+		"iS": 87242,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/magicburst.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/stylesheets\/css\/imgs\/shavedHead.jpg": {
 		"ft": 16384,
 		"iS": 52288,
@@ -75,6 +97,34 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/stylesheets\/css\/imgs\/sketch\/stats.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/sketch\/stats.sketch",
+		"oF": 0
+		},
+	"\/stylesheets\/css\/imgs\/stats.jpg": {
+		"ft": 16384,
+		"iS": 569202,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/stats.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/stylesheets\/css\/imgs\/stats.png": {
+		"ft": 32768,
+		"iS": 6495,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/stats.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/stylesheets\/css\/imgs\/tree.jpg": {
