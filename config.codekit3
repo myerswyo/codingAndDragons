@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26261",
 "files": {
+	"\/bioIndex.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/bioIndex.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -98,13 +105,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/stylesheets\/css\/imgs\/sketch\/stats.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/stylesheets\/css\/imgs\/sketch\/stats.sketch",
-		"oF": 0
 		},
 	"\/stylesheets\/css\/imgs\/stats.jpg": {
 		"ft": 16384,

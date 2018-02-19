@@ -44,6 +44,35 @@
     background-size: contain;
     background-position: center; }
 
+#bio {
+  height: 500px;
+  width: 400px;
+  left: 515px;
+  padding-top: 75px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 2; }
+  #bio #bioText {
+    font-family: 'Macondo', cursive;
+    font-size: 1.1em;
+    color: #FFF;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.75); }
+    #bio #bioText #ageText {
+      color: #FFFFFF; }
+    #bio #bioText #tattooText {
+      color: #B4D5FF; }
+    #bio #bioText #framedText {
+      color: #D7E9FF; }
+    #bio #bioText #roseText {
+      color: #F4FCFF; }
+    #bio #bioText #bardText {
+      color: #B2B6BA; }
+    #bio #bioText #tormentorText {
+      color: #D9E0E3; }
+    #bio #bioText #justiceText {
+      color: #D7FFF9; }
+
 #mainWrap {
   height: 100vh;
   width: 100vw; }
